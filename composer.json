@@ -15,11 +15,6 @@
     "spryker/transfer": "^3.25.0"
   },
   "require-dev": {
-    "codeception/module-asserts": "^1.3.0",
-    "codeception/stub": "^3.6.1",
-    "phpstan/phpstan": "^1.0.0",
-    "spryker/code-sniffer": "^0.17.1",
-    "spryker/testify": "^3.40.0"
   },
   "autoload": {
     "psr-4": {
@@ -34,11 +29,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "scripts": {
-    "test": "vendor/bin/codecept run",
-    "cs-check": "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml --ignore=/tests/app/ src/ tests/",
-    "cs-fix": "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml --ignore=/tests/app/ src/ tests/",
-    "stan": "phpstan analyse",
-    "stan-setup": "cp composer.json composer.backup && composer require --dev phpstan/phpstan:^1.0.0 && mv composer.backup composer.json",
     "lowest": "validate-prefer-lowest",
     "lowest-setup": "composer update --prefer-lowest --prefer-stable --prefer-dist --no-interaction && cp composer.json composer.backup && composer require --dev dereuromark/composer-prefer-lowest && mv composer.backup composer.json"
   },
