@@ -46,7 +46,8 @@
   ],
   "keywords": [
     "kubernetes",
-    "scheduler"
+    "scheduler",
+    "spryker"
   ],
   "include-path": [
     "src/"
