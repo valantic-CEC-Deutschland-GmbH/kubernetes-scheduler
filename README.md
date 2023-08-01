@@ -4,7 +4,7 @@ Kubernetes implementation as an adapter for spryker/scheduler
 
 ### Install package
 ```
-composer req valantic-cec/kubernetes-scheduler
+composer req valantic-spryker-eco/kubernetes-scheduler
 ```
 
 ### Update shared config
