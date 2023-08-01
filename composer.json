@@ -1,5 +1,5 @@
 {
-  "name": "valantic-cec/kubernetes-scheduler",
+  "name": "valantic-spryker-eco/kubernetes-scheduler",
   "type": "library",
   "description": "Kubernetes Scheduler implementation",
   "homepage": "https://www.valantic.com",
