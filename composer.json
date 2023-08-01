@@ -1,9 +1,9 @@
 {
-  "name": "valantic-spryker/kubernetes-scheduler",
+  "name": "valantic-cec/kubernetes-scheduler",
   "type": "library",
   "description": "Kubernetes Scheduler implementation",
   "homepage": "https://www.valantic.com",
-  "license": "MIT",
+  "license": "proprietary",
   "require": {
     "php": ">=7.4",
     "ext-json": "*",
@@ -36,8 +36,7 @@
     "sort-packages": true,
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true
-    },
-    "gitlab-domains": ["gitlab.nxs360.com"]
+    }
   },
   "authors": [
     {
